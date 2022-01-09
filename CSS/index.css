@@ -16,8 +16,6 @@
     border-radius: 12px;
     padding: 0 30px;
     box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
 }
 .name {
     color: white;
@@ -31,8 +29,6 @@
     width: 100px;
     object-fit: cover;
     box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.75);
 }
 .assignment-title {
     font-family: "Roboto Mono", monospace;
