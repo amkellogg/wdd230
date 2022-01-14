@@ -1,0 +1,50 @@
+/* phone or baseline views *****/
+@media (min-width: 352px) {
+    body {
+        font-family: sans-serif;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+#hammenu {
+    width: 50px;
+}
+
+.cricut {
+    border: 2px solid black;
+}
+.cricut-header {
+    background: white;
+}
+.cricut-logo {
+    width: 300px;
+    height: auto;
+    float: center;
+}
+.nav-cricut {
+    float: left;
+    text-decoration: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+nav .cricut-machine {
+    width: 400px;
+    height: auto;
+}
+.cricut-machine-dark {
+    width: 700px;
+    height: auto;
+}
+/* tablet views *****/
+
+/* large screen views *****/

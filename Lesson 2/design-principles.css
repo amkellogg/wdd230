@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    grid-column: 1;
+}
+.mainh1h2 {
+    background-color: #0b2133;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b2133;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
