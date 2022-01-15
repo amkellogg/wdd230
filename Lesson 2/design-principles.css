@@ -1,51 +1,120 @@
-@media only screen and (max-width: 390px) {
-    main {
-        min-width: 390;
-        grid-template-columns: 1fr;
-        background: rgb(241, 241, 241);
-    }
-    body {
-        margin: 0;
-    }
-
-    .mainh1h2 {
-        background-color: #0b2133;
-        color: white;
-        font-family: "Quicksand", sans-serif;
-        font-weight: 300;
-        text-align: center;
-    }
-    img {
-        max-width: 250px;
-        width: 95%;
-    }
-    a {
-        color: gray;
-    }
-    section {
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-    }
-    footer {
-        background-color: #0b2133;
-        color: white;
-        text-align: center;
-        padding: 5px;
-    }
+/* Modible device  grid-template-areas: ;***/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
 }
-@media only screen and (max-width: 550px) {
+
+header {
+    background-color: #410e25;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 8px;
+}
+h3 {
+    background-color: #5f1839;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    font-weight: 300;
+    border: gray solid 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+h4 {
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    padding-left: 10px;
+    margin-top: 0;
+    padding-bottom: 3px;
+}
+p {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin: 10px;
+}
+img {
+    width: 90%;
+    padding-left: 6px;
+    margin-top: 10px;
+    border: gray solid 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link {
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    padding-left: 10px;
+}
+section {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: gray solid 1px;
+    border-radius: 10px;
+    background: rgb(241, 241, 241);
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #0b2133;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Medium screen device  ***/
+@media only screen and (min-width: 550px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
     img {
         max-width: 400px;
         width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main section:nth-child(2) {
+        display: block;
+    }
+
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    main section picture {
+        display: block;
+    }
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
     }
 }
 
-@media only screen and (max-width: 900px) {
+/* Large screen device  ***/
+@media only screen and (min-width: 900px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    img {
+        max-width: 500px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main section:nth-child(3) {
+        grid-column: span 1;
     }
 }
