@@ -1,0 +1,114 @@
+/* Modible device  grid-template-areas: ;***/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+header,
+a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-weight: 500;
+    background-color: #628b48;
+    font-family: "Quicksand", sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+a:hover {
+    background-color: #fffdfd;
+    color: #ffa62b;
+    font-weight: 500;
+}
+body {
+    background: #0b3c49;
+}
+h1 {
+    padding-left: 10px;
+    text-align: center;
+    color: #0b3c49;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+h2 {
+    padding-left: 10px;
+    text-align: center;
+    color: #666968;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+p {
+    padding-left: 10px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+.color-1 {
+    color: #0b3c49;
+}
+.color-2 {
+    color: #666968;
+}
+.color-3 {
+    color: #628b48;
+}
+.color-4 {
+    color: #ffa62b;
+}
+img {
+    width: 90%;
+    padding-left: 6px;
+    margin-top: 10px;
+    border: gray solid 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: white solid 1px;
+    border-radius: 8px;
+    background: #fbfef9;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #628b48;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+/* Medium screen device  ***/
+@media only screen and (min-width: 550px) {
+    ol {
+        display: inline;
+        list-style-type: none;
+    }
+    img {
+        max-width: 400px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Large screen device  ***/
+@media only screen and (min-width: 900px) {
+    ol {
+        display: inline;
+        list-style-type: none;
+    }
+    img {
+        max-width: 500px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
