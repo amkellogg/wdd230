@@ -1,7 +1,7 @@
-//const buttons = document.getElementsByClassName("btn");
+const menu = document.getElementsByClassName("navbar");
 
 //console.log(buttons[0]);
 
-//function show() {
-//    buttons.classList.toggle("newstyle");
-//}
+function show() {
+    menu.classList.toggle("responsive");
+}
