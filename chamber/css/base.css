@@ -1,0 +1,130 @@
+/* Modible device  grid-template-areas: ;***/
+main {
+    display: grid;
+}
+header {
+    background-color: #628b48;
+    height: 8%;
+}
+header,
+a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-family: "Quicksand", sans-serif;
+    padding: 3px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+div img {
+    width: 20px;
+    padding-top: 10px;
+}
+a {
+    display: none;
+}
+.ham {
+    display: block;
+    padding-left: 30px;
+}
+.responsive a {
+    display: block;
+}
+a:hover {
+    background-color: #fffdfd;
+    color: #ffa62b;
+    font-weight: 500;
+}
+#media {
+    padding-left: 30px;
+}
+body {
+    background: #0b3c49;
+}
+h1 {
+    color: #0b3c49;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding-left: 30px;
+}
+h2 {
+    color: #fbfef9;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-left: 30px;
+}
+#container {
+    display: flex;
+}
+#headings {
+    display: inline-block;
+    align-self: flex-end;
+    width: 500px;
+}
+#longDate {
+    font-size: 10px;
+    padding-left: 30px;
+    padding-bottom: 0;
+}
+body p {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+    width: 33%;
+    background-color: #0b3c49;
+    border-radius: 15%;
+    margin-top: 1px;
+    border: gray solid 1px;
+    display: inline-block;
+    /* float: left; */
+    padding: 0;
+    align-self: flex-start;
+}
+section {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: #0b3c49 solid 1px;
+    border-radius: 8px;
+    background: #fbfef9;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+footer {
+    background-color: #628b48;
+    color: white;
+    padding: 5px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+#footerimage {
+    width: 60px;
+    background-color: #0b3c49;
+}
+#footerimage {
+    display: block;
+    border-radius: 15%;
+}
+#footerinfo {
+    display: inline-block;
+    align-self: flex-end;
+    width: 600px;
+}
+footer p {
+    padding: 0;
+}
+#maplink:hover {
+    background-color: #fffdfd;
+    color: #ffa62b;
+    width: 100px;
+}
+#year {
+    text-align: center;
+    font-size: 15px;
+}

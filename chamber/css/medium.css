@@ -1,0 +1,40 @@
+/* Medium screen device  ***/
+@media only screen and (min-width: 550px) {
+    nav a {
+        display: inline;
+
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .navbar {
+        padding-left: 30px;
+    }
+    #media {
+        align-items: right;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .logo {
+        width: 150px;
+        background-color: #0b3c49;
+        border-radius: 15%;
+        padding-left: 6px;
+        margin-top: 10px;
+        border: gray solid 1px;
+        display: block;
+        float: left;
+    }
+    a {
+        display: block;
+    }
+    .ham {
+        display: none;
+    }
+    #longDate {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-bottom: 0;
+    }
+}
