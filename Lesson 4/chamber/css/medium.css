@@ -7,10 +7,11 @@
         display: inline;
     }
     #third {
-        display: flex;
+        align-content: center;
     }
     #spotlight {
-        display: flex;
+        display: inline-block;
+        vertical-align: center;
     }
     #otherSpotlight {
         display: none;
