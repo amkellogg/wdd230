@@ -7,11 +7,12 @@
         display: inline;
     }
     #third {
-        align-content: center;
+        display: flex;
+        width: 80%;
+        align-items: center;
     }
-    #spotlight {
-        display: inline-block;
-        vertical-align: center;
+    #spotlight1 #spotlight2 {
+        flex: 1;
     }
     #otherSpotlight {
         display: none;
