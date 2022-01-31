@@ -1,6 +1,7 @@
 /* Modible device  grid-template-areas: ;***/
 main {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 header {
     background-color: #628b48;
