@@ -1,5 +1,20 @@
 /* Medium screen device  ***/
 @media only screen and (min-width: 550px) {
+    #first {
+        display: inline;
+    }
+    #second {
+        display: inline;
+    }
+    #third {
+        display: flex;
+    }
+    #spotlight {
+        display: flex;
+    }
+    #otherSpotlight {
+        display: none;
+    }
     nav a {
         display: inline;
 
