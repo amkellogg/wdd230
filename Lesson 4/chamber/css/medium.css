@@ -3,19 +3,38 @@
     #first {
         display: inline;
     }
-    #second {
-        display: inline;
-    }
     #third {
+        border: #0b3c49 solid 1px;
+        border-radius: 8px;
+        background: #fbfef9;
         display: flex;
         width: 80%;
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 12px;
     }
-    #spotlight1 #spotlight2 {
-        flex: 1;
+    #spotlight1 {
+        width: 48%;
+    }
+    #spotlight2 {
+        width: 48%;
     }
     #otherSpotlight {
         display: none;
+    }
+    #weatherjoin {
+        display: flex;
+        width: 80%;
+    }
+    #weather {
+        width: 15%;
+        float: left;
+        margin-left: 10%;
+    }
+    #join {
+        float: right;
+        width: 60%;
+        margin-right: 10%;
     }
     nav a {
         display: inline;
