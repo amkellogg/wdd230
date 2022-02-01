@@ -117,4 +117,8 @@
         padding-top: 5px;
         padding-bottom: 12px;
     }
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
 }

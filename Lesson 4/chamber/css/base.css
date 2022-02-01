@@ -136,3 +136,7 @@ footer p {
     text-align: center;
     font-size: 15px;
 }
+iframe {
+    width: 300px;
+    height: 200px;
+}
