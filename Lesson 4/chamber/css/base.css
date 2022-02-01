@@ -68,7 +68,7 @@ h2 {
     padding-bottom: 0;
 }
 body p {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-left: 10px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
@@ -96,7 +96,14 @@ section {
     margin-top: 7px;
     margin-bottom: 7px;
 }
-
+#third {
+    border: #0b3c49 solid 1px;
+    border-radius: 8px;
+    background: #fbfef9;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
     background-color: #628b48;
     color: white;
