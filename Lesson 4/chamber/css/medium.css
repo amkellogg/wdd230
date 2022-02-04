@@ -1,5 +1,9 @@
 /* Medium screen device  ***/
 @media only screen and (min-width: 550px) {
+    main {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
     #first {
         display: inline;
     }
