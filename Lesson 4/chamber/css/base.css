@@ -1,5 +1,4 @@
 /* Modible device  grid-template-areas: ;***/
-
 header {
     background-color: #628b48;
 }
@@ -38,6 +37,14 @@ a:hover {
 body {
     background: #0b3c49;
 }
+#hero h3 {
+    background-image: url("images/napavalley.jpeg");
+}
+p {
+    font-family: "Quicksand", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 h1 {
     color: #0b3c49;
     font-family: "Montserrat", sans-serif;
@@ -51,6 +58,16 @@ h2 {
     font-weight: 400;
     padding-left: 30px;
 }
+h3 {
+    color: #0b3c49;
+    font-family: "Montserrat", sans-serif;
+}
+h4 {
+    color: #d8820a;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 0 0 10px #ffa62b, 0 0 15px #ffa62b;
+    text-align: center;
+}
 #container {
     display: flex;
 }
@@ -63,12 +80,6 @@ h2 {
     font-size: 10px;
     padding-left: 30px;
     padding-bottom: 0;
-}
-body p {
-    padding-bottom: 50px;
-    padding-left: 10px;
-    text-align: left;
-    font-family: "Quicksand", sans-serif;
 }
 
 .logo {

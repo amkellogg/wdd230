@@ -3,42 +3,40 @@
     main {
         display: grid;
         grid-template-rows: 1fr;
-    }
-    #first {
-        display: inline;
+        margin: auto;
     }
     #third {
+        grid-row: 3/4;
         border: #0b3c49 solid 1px;
         border-radius: 8px;
         background: #fbfef9;
-        display: flex;
+        justify-content: space-evenly;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
+    }
+    #weatherEvents {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        width: 80%;
+        margin: auto;
+        grid-gap: 10px;
+    }
+    #weather {
+        width: 100%;
+    }
+    #events {
+        width: 100%;
     }
     #spotlight1 {
-        width: 48%;
+        width: 90%;
     }
     #spotlight2 {
-        width: 48%;
+        width: 90%;
     }
     #otherSpotlight {
         display: none;
-    }
-    #weatherjoin {
-        display: grid;
-        grid-template-columns: 3fr 6fr 1fr;
-    }
-    #weather {
-        width: 63%;
-        margin-left: 34%;
-        margin-right: 3%;
-    }
-    #join {
-        width: 100%;
-        position: relative;
-        margin-right: 15%;
     }
     nav a {
         display: inline;
