@@ -23,6 +23,8 @@
         margin-bottom: 20px;
     }
     #weatherEvents {
+        margin-top: 0;
+        margin-bottom: 0;
         display: unset;
         grid-template-columns: unset;
         grid-template-rows: unset;
@@ -45,7 +47,6 @@
         border-radius: 8px;
         background: #fbfef9;
         width: 80%;
-        margin-top: 10px;
     }
     #spotlight1 {
         grid-column: 3/4;

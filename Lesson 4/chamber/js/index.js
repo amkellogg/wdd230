@@ -15,16 +15,27 @@ hamburgerBtn.addEventListener(
 );
 
 // date:
-var currentDate = new Date();
+const currentDate = new Date();
 let weekDay = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currentDate);
 let monthDay = currentDate.getDate();
 let month = new Intl.DateTimeFormat("en-us", { month: "long" }).format(currentDate);
 let year = currentDate.getFullYear();
-var date = new Date(document.lastModified).toLocaleDateString("en-US");
-var time = new Date(document.lastModified).toLocaleDateString("en-US", { hour12: false });
-var longDate = weekDay + ", " + monthDay + " " + month + " " + year;
-var dateTime = date + " " + time;
+const date = new Date(document.lastModified).toLocaleDateString("en-US");
+const time = new Date(document.lastModified).toLocaleDateString("en-US", {
+    hour12: false,
+});
+const longDate = weekDay + ", " + monthDay + " " + month + " " + year;
+const dateTime = date + " " + time;
 
 document.getElementById("longDate").textContent = longDate;
 document.getElementById("yearHeader").textContent = year;
 document.getElementById("updatedDate").textContent = dateTime;
+
+//to show mon tues announcement message
+let mydate = new Date();
+console.log(mydate);
+const message = document.querySelector(".msg");
+
+if (mydate.getDay() == 1 || mydate.getDay() == 2) {
+    message.style.display = "block";
+}

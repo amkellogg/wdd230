@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/base.css" />
         <link rel="stylesheet" href="css/medium.css" />
         <link rel="stylesheet" href="css/large.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+        </style>
         <script src="js/index.js" defer></script>
         <script src="js/jsfooter.js" defer></script>
         <title>Chamber of Commerce - Napa</title>
@@ -39,6 +42,9 @@
                 </div>
             </div>
         </header>
+        <p class="msg">
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+        </p>
         <main>
             <section id="hero">
                 <!-- <img src="images/bel-r-__EeLCGc_po-unsplash (1)_ccexpress.jpeg" /> -->
@@ -57,7 +63,7 @@
                 </p>
             </section>
             <section id="join">
-                <button>Join Us!</button>
+                <button id="joinBtn">Join Us!</button>
                 <p>
                     Discover how to join the Chamber of Commerce and how it will benefit
                     your organization!
@@ -67,7 +73,12 @@
             <div id="weatherEvents">
                 <section id="weather">
                     <h4>Weather</h4>
-                    <img src="images/cloudy.png" alt="Sun behind cloud icon" />
+                    <p id="degree">33°C</p>
+                    <img
+                        class="icons"
+                        src="images/cloudy.png"
+                        alt="Sun behind cloud icon"
+                    />
                     <p>Partly Cloudy</p>
                     <hr />
                     <p>Wind Speed: 2.5 km/h</p>
@@ -85,27 +96,35 @@
             <div id="third">
                 <section id="spotlight1">
                     <h4>Thankful Transport</h4>
-                    <img src="images/delivery-truck.png" alt="Delivery Truck icon" />
-                    <p>"We get it there for you!"</p>
+                    <img
+                        class="iconsS"
+                        src="images/delivery-truck.png"
+                        alt="Delivery Truck icon"
+                    />
+                    <p><em>"We get it there for you!"</em></p>
                     <hr />
-                    <p>hello@thankfultransport.com</p>
-                    <p>+999-999-9999 Website</p>
+                    <h6 class="slp">hello@thankfultransport.com</h6>
+                    <h6 class="slp">+999-999-9999 Website</h6>
                 </section>
                 <section id="spotlight2">
                     <h4>Code Primera</h4>
-                    <img src="images/desktop-computer.png" alt="Computer Icon" />
-                    <p>An after school coding instructional program.</p>
+                    <img
+                        class="iconsS"
+                        src="images/desktop-computer.png"
+                        alt="Computer Icon"
+                    />
+                    <p><em>An after school coding instructional program.</em></p>
                     <hr />
-                    <p>contact@codeprimera.com</p>
-                    <p>+999-999-9999 Website</p>
+                    <h6 class="slp">contact@codeprimera.com</h6>
+                    <h6 class="slp">+999-999-9999 Website</h6>
                 </section>
                 <section id="otherSpotlight">
                     <h4>Build a Treefort</h4>
-                    <img src="images/treehouse.png" alt="Treehouse icon" />
-                    <p>Over 1000 Plans!</p>
+                    <img class="iconsS" src="images/treehouse.png" alt="Treehouse icon" />
+                    <p><em>Over 1000 Plans!</em></p>
                     <hr />
-                    <p>builda@treefort.com</p>
-                    <p>+999-999-9999 Website</p>
+                    <h6 class="slp">builda@treefort.com</h6>
+                    <h6 class="slp">+999-999-9999 Website</h6>
                 </section>
             </div>
         </main>
@@ -119,7 +138,7 @@
                     />
                 </div>
                 <div id="footerinfo">
-                    <h3>Contact</h3>
+                    <h5>Contact</h5>
                     <p>Phone: (707) 234 7891</p>
                     <p>Email: napacommerce@gov.com</p>
                     <p id="maplink">Link to map</p>

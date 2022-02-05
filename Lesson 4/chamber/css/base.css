@@ -1,4 +1,9 @@
 /* Modible device  grid-template-areas: ;***/
+.msg {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
 header {
     background-color: #628b48;
 }
@@ -40,8 +45,35 @@ body {
 #hero h3 {
     background-image: url("images/napavalley.jpeg");
 }
+
+.icons {
+    width: 80px;
+    padding-left: 20px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#degree {
+    position: relative;
+    font-size: 30px;
+    left: 40px;
+    top: 60px;
+    padding: 0;
+    margin: 0;
+}
+.iconsS {
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25%;
+}
+
 p {
-    font-family: "Quicksand", sans-serif;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -61,12 +93,21 @@ h2 {
 h3 {
     color: #0b3c49;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 0 0 10px #14677e, 0 0 15px #14677e;
 }
 h4 {
     color: #d8820a;
     font-family: "Montserrat", sans-serif;
     text-shadow: 0 0 10px #ffa62b, 0 0 15px #ffa62b;
     text-align: center;
+}
+h5 {
+    color: #0b3c49;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 20px;
 }
 #container {
     display: flex;
@@ -81,7 +122,23 @@ h4 {
     padding-left: 30px;
     padding-bottom: 0;
 }
-
+button {
+    background-color: #628b48;
+    color: white;
+    border: #628b48;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px #628b48, 0 0 15px #628b48;
+}
+#joinBtn {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .logo {
     width: 33%;
     background-color: #0b3c49;
@@ -95,7 +152,7 @@ h4 {
 }
 section {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     border: #0b3c49 solid 1px;
     border-radius: 8px;
@@ -108,9 +165,27 @@ section {
     border: #0b3c49 solid 1px;
     border-radius: 8px;
     background: #fbfef9;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+#spotlight1,
+#spotlight2,
+#otherSpotlight {
+    border: lightslategray;
+    box-shadow: 0 0 10px lightslategray, 0 0 15px lightslategray;
+    margin-bottom: 0;
+}
+
+#otherSpotlight {
+    margin-bottom: 7px;
+}
+.slp {
+    font-size: 11px;
+    font-family: "Cutive Mono", monospace;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
 }
 footer {
     background-color: #628b48;
