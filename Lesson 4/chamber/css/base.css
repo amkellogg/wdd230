@@ -121,7 +121,7 @@ h3 {
 h4 {
     color: #d8820a;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 0 0 10px #ffa62b, 0 0 15px #ffa62b;
+    text-shadow: 0 0 10px #f7960f, 0 0 15px #f89a16;
     text-align: center;
 }
 h5 {
@@ -156,6 +156,7 @@ button {
 }
 #join {
     width: 90%;
+    display: none;
 }
 #joinBtn {
     margin-left: 20%;
