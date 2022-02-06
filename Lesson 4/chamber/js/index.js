@@ -32,10 +32,9 @@ document.getElementById("yearHeader").textContent = year;
 document.getElementById("updatedDate").textContent = dateTime;
 
 //to show mon tues announcement message
-let mydate = new Date();
-console.log(mydate);
+let myDate = new Date();
 const message = document.querySelector(".msg");
 
-if (mydate.getDay() == 1 || mydate.getDay() == 2) {
+if (myDate.getDay() == 1 || my.getDay() == 6) {
     message.style.display = "block";
 }

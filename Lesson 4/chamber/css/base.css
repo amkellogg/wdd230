@@ -3,6 +3,10 @@
     color: white;
     font-family: "Quicksand", sans-serif;
     text-align: center;
+    display: none;
+}
+main {
+    grid-template-columns: 1fr;
 }
 header {
     background-color: #628b48;
@@ -42,10 +46,26 @@ a:hover {
 body {
     background: #0b3c49;
 }
-#hero h3 {
-    background-image: url("images/napavalley.jpeg");
+#hero {
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(250, 240, 230, 0);
 }
-
+#hero,
+img {
+    width: 90%;
+    margin-left: 5%;
+}
+#heroH3 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+#heroBtn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
 .icons {
     width: 80px;
     padding-left: 20px;
@@ -55,10 +75,13 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+#news {
+    width: 90%;
+}
 #degree {
     position: relative;
     font-size: 30px;
-    left: 40px;
+    left: 150px;
     top: 60px;
     padding: 0;
     margin: 0;
@@ -131,8 +154,11 @@ button {
     padding: 10px;
     box-shadow: 0 0 10px #628b48, 0 0 15px #628b48;
 }
+#join {
+    width: 90%;
+}
 #joinBtn {
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: 15%;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -152,7 +178,7 @@ button {
 }
 section {
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     border: #0b3c49 solid 1px;
     border-radius: 8px;
@@ -168,17 +194,17 @@ section {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 #spotlight1,
-#spotlight2,
-#otherSpotlight {
+#spotlight2 {
     border: lightslategray;
     box-shadow: 0 0 10px lightslategray, 0 0 15px lightslategray;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 #otherSpotlight {
-    margin-bottom: 7px;
+    display: none;
 }
 .slp {
     font-size: 11px;
