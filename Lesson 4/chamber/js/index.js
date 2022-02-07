@@ -28,13 +28,16 @@ const longDate = weekDay + ", " + monthDay + " " + month + " " + year;
 const dateTime = date + " " + time;
 
 document.getElementById("longDate").textContent = longDate;
-document.getElementById("yearHeader").textContent = year;
-document.getElementById("updatedDate").textContent = dateTime;
+// document.getElementById("yearHeader").textContent = year;
+// document.getElementById("updatedDate").textContent = dateTime;
 
 //to show mon tues announcement message
-let myDate = new Date();
+// let myDate = new Date();
+// console.log(myDate);
+
 const message = document.querySelector(".msg");
 
-if (myDate.getDay() == 1 || my.getDay() == 6) {
+if (currentDate.getDay() == 1 || currentDate.getDay() == 2) {
     message.style.display = "block";
+    console.log(currentDate.getDay());
 }
