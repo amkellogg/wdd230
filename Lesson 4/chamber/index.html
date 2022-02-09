@@ -47,11 +47,22 @@
         </p>
         <main>
             <section id="hero">
-                <img
-                    class="heroImg"
-                    src="images/napavalley.jpeg"
-                    alt="Image of Napa Valley and hot air balloon"
-                />
+                <picture>
+                    <source
+                        media="(min-width:1000px)"
+                        srcset="images/napavalley_large.jpeg 1400w"
+                    />
+                    <source
+                        media="(min-width:800px)"
+                        srcset="images/napavalley_medium.jpeg 800w"
+                    />
+                    <img
+                        src="images/napavalley_small.jpeg 600w"
+                        alt="Image of Napa Valley and
+                    hot air balloon"
+                    />
+                </picture>
+
                 <h3 id="heroH3">Welcome to Napa</h3>
                 <button id="heroBtn">Join the Chamber</button>
             </section>
