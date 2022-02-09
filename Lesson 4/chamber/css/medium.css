@@ -21,6 +21,7 @@
     }
     #heroBtn {
         position: absolute;
+        font-size: 20px;
         bottom: 40px;
         right: 70px;
     }

@@ -63,8 +63,9 @@ img {
 }
 #heroBtn {
     position: absolute;
+    font-size: 15px;
     bottom: 20px;
-    right: 20px;
+    right: 35px;
 }
 .icons {
     width: 80px;
