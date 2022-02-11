@@ -51,10 +51,10 @@ body {
     margin-top: 10px;
     background-color: rgba(250, 240, 230, 0);
 }
-#hero,
-img {
-    width: 90%;
-    margin-left: 5%;
+#hero img,
+#hero source {
+    width: 100%;
+    height: 100%;
 }
 #heroH3 {
     position: absolute;
@@ -180,7 +180,7 @@ button {
 }
 section {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     border: #0b3c49 solid 1px;
     border-radius: 8px;

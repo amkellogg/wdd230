@@ -9,10 +9,10 @@
         position: relative;
         margin-top: 10px;
     }
-    #hero,
-    img {
-        width: 90%;
-        margin-left: 5%;
+    #hero img,
+    #hero source {
+        width: 100%;
+        height: 100%;
     }
     #heroH3 {
         position: absolute;
