@@ -29,6 +29,21 @@
         top: 1px;
         left: 45px;
     }
+    #heroSizeL {
+        display: block;
+
+        position: absolute;
+        font-size: 25px;
+        top: 1px;
+        right: 45px;
+    }
+    #heroSizeM {
+        display: none;
+    }
+    #heroSizeS {
+        display: none;
+    }
+
     #heroBtn {
         position: absolute;
         font-size: 20px;

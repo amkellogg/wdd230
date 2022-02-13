@@ -61,6 +61,18 @@ body {
     top: 0;
     left: 50px;
 }
+#heroSizeS {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+#heroSizeM {
+    display: none;
+}
+#heroSizeL {
+    display: none;
+}
+
 #heroBtn {
     position: absolute;
     font-size: 15px;

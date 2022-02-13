@@ -2,7 +2,7 @@
 
 const wind = document.querySelector("#WS").textContent;
 const temp = document.querySelector("#temp").textContent;
-
+console.log(temp);
 const wc =
     35.74 +
     0.6215 * temp -
