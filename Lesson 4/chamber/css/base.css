@@ -89,7 +89,7 @@ body {
     margin-bottom: 0;
 }
 #news {
-    width: 90%;
+    width: 100%;
 }
 #degree {
     position: relative;
@@ -205,7 +205,7 @@ section {
     border: #0b3c49 solid 1px;
     border-radius: 8px;
     background: #fbfef9;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -215,6 +215,7 @@ section {
     border: lightslategray;
     box-shadow: 0 0 10px lightslategray, 0 0 15px lightslategray;
     margin-bottom: 5px;
+    width: 95%;
 }
 
 #otherSpotlight {
