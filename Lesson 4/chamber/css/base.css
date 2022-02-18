@@ -264,3 +264,21 @@ iframe {
     width: 300px;
     height: 200px;
 }
+
+#discoverH1 {
+    text-align: center;
+}
+#discover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    border-color: white;
+}
+
+#discover p {
+    width: 400px;
+}
+#discoverimg {
+    margin: 5px;
+}
