@@ -57,6 +57,10 @@ function visits() {
         let difference = currentVisit - lastVisit;
         let daysDifference = Math.floor(difference / 100 / 600 / 60 / 24);
         visitElement.textContent = daysDifference;
+
+        currentVisit.getDay();
+        console.log(currentVisit);
+
         if (daysDifference != 0) {
             visitElement.textContent = currentVisit;
         }
