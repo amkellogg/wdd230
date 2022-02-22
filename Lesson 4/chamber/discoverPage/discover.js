@@ -1,7 +1,7 @@
 function imagesLoad() {
     const images = document.querySelectorAll("img");
 
-    const options = { threshold: [0] };
+    const options = { threshold: [0.5] };
 
     function preloadImage(img) {
         const source = img.getAttribute("data-src");
