@@ -70,3 +70,6 @@ h5 {
 #discoverimg {
     margin: 5px;
 }
+#discover img:hover {
+    box-shadow: 0 0 50px #0b3c49;
+}
