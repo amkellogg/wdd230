@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    resize: vertical;
+    display: inline-block;
+    font-family: sans-serif;
+    width: 400px;
+    margin: 5px;
+    border: 1px solid #a8b6ba;
+    text-align: center;
+    justify-content: center;
+}
+form {
+    display: block;
+    padding: 3px;
+    background: #fbfef9;
+}
+label {
+    display: block;
+    padding: 3px;
+}
+input {
+    padding: 3px;
+    justify-content: center;
+}
+body {
+    background: #0b3c49;
+}
+#bus {
+    max-width: 200px;
+}
+#submit {
+    display: block;
+    background-color: #628b48;
+    color: white;
+    border: #628b48;
+    justify-content: center;
+}

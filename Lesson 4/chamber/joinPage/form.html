@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./css/medium.css" />
         <link rel="stylesheet" href="./css/large.css" />
         <link rel="stylesheet" href="form.css" />
+        <script src="form.js" defer></script>
     </head>
     <header>
         <div id="container">
@@ -66,7 +67,7 @@
             <label for="bus">Business Name *:</label>
             <textarea id="bus"></textarea>
 
-            <input type="hidden" name="todayDate" value="CurrentDate" />
+            <input id="date" type="hidden" name="todayDate" value="" />
 
             <!-- <label for="message">Give us a message:</label>
             <textarea id="message"></textarea> -->
@@ -99,7 +100,13 @@
             <label for="Bronze">Bronze</label>
             <input type="radio" id="Bronze" name="level" value="Bronze" />
 
-            <input id="submit" type="submit" value="Submit" action="#" target="_blank" />
+            <input
+                id="submit"
+                type="submit"
+                value="Submit"
+                action="thankyou.html"
+                target="_blank"
+            />
 
             <!-- or can use this: 
                 <input name="firstname"/>

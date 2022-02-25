@@ -282,3 +282,46 @@ iframe {
 #discoverimg {
     margin: 5px;
 }
+/* Discover Page */
+#visitorsDates {
+    text-align: center;
+}
+
+/* Form Css */
+
+form {
+    display: block;
+    padding: 3px;
+    background: #fbfef9;
+    width: 400px;
+    margin: 10px auto;
+}
+label {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+input {
+    padding: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#bus {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#submit {
+    display: block;
+    background-color: #628b48;
+    color: white;
+    border: #628b48;
+}
+/* Thank you page */
+#thankyou {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}

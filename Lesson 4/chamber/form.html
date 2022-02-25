@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Example</title>
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/medium.css" />
+        <link rel="stylesheet" href="./css/large.css" />
+        <!-- <link rel="stylesheet" href="./css/form.css" /> -->
+        <script src="form.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div id="container">
+                <img
+                    class="logo"
+                    src="./images/IMG_0450_ccexpress.webp"
+                    alt="Logo of grave vine and leaf"
+                />
+                <div id="headings">
+                    <h1>Napa</h1>
+                    <h2>Chamber of Commerce</h2>
+                    <nav class="navbar">
+                        <a class="ham" href="#">&#9776; Menu</a>
+                        <a
+                            href="https://amkellogg.github.io/wdd230/Lesson%204/chamber/discoverPage/discover.html"
+                            >Discover</a
+                        >
+                        <a href="#">Events</a>
+                        <a href="#">Join</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                    <div id="media">
+                        <img src="./images/instagram.png" alt="instagram logo" />
+                        <img src="./images/facebook.png" alt="facebook logo" />
+                    </div>
+                    <p id="longDate"></p>
+                </div>
+            </header>
+            <form method="get" action="thankyou.html">
+                <label for="fname"> First Name *:</label>
+                <input type="fname" name="firstname" required />
+                <label for="lname"> Last Name *:</label>
+                <input type="lname" name="lasttname" required />
+                
+                <label for="position"> Business Position (min 7 charaters) </label>
+                <input type="position" name="position" minlength="7" pattern="[-A-Za-z]+" />
+                
+                <!-- <label for="password"> Password * (letters, 7 charaters)</label>
+                    <input
+                    type="password"
+                    name="password"
+                    required
+                    minlength="7"
+                    pattern="[- A-Za-z]+"
+                    /> -->
+                    
+                    <label for="email" required> Email *: </label>
+                    <input type="email" name="email" />
+                    
+                    <label for="phone" required> Phone Number *: </label>
+                    <input type="phone" type="'tel" name="phone" placeholder="123 456 7890" />
+                    
+                    <label for="bus">Business Name *:</label>
+                    <textarea id="bus"></textarea>
+                    
+                    <input id="date" type="hidden" name="todayDate" value="" />
+                    
+                    <!-- <label for="message">Give us a message:</label>
+                        <textarea id="message"></textarea> -->
+                        
+                        <!-- Type in answer -->
+                        
+                        <!-- <label for="level">Choose your browser from the list:</label>
+                            <input list="level" name="level" id="level" />
+                            <datalist id="level">
+                                <option value="Edge"></option>
+                                <option value="Firefox"></option>
+                                <option value="Chrome"></option>
+                                <option value="Opera"></option>
+                                <option value="Safari"></option>
+                            </datalist> -->
+                            
+                            <!-- <label for="level">Choose a level:</label>
+                                <select name="level" id="level">
+                                    <option value="Gold">Gold</option>
+                                    <option value="Silver">Silver</option>
+                                    <option value="Bronze">Bronze</option>
+                                </select> -->
+                                
+                                <!-- Multiple choice selector -->
+                                
+                                <label for="Gold">Gold</label>
+                                <input type="radio" id="Gold" name="level" value="Gold" />
+                                <label for="Silver">Silver</label>
+                                <input type="radio" id="Silver" name="level" value="Silver" />
+                                <label for="Bronze">Bronze</label>
+                                <input type="radio" id="Bronze" name="level" value="Bronze" />
+                                
+                                <input
+                                id="submit"
+                                type="submit"
+                                value="Submit"
+                                action="thankyou.html"
+                                target="_blank"
+                                />
+                                
+                                <!-- or can use this: 
+                                    <input name="firstname"/>
+                                    <label for="fname"> 
+                                        First Name </label> -->
+                                    </form>
+                                </div>
+                                <footer>
+                                    <div id="mainfooter">
+                                        <div>
+                                            <img
+                                                id="footerimage"
+                                                src="images/IMG_0450_ccexpress.webp"
+                                                alt="Logo of grave vine and leaf"
+                                            />
+                                        </div>
+                                        <div id="footerinfo">
+                                            <h5>Contact</h5>
+                                            <p>Phone: (707) 234 7891</p>
+                                            <p>Email: napacommerce@gov.com</p>
+                                            <p id="maplink">Link to map</p>
+                                        </div>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25049.835514560957!2d-122.30796610925826!3d38.29735157917591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085065d224af585%3A0xaf9ee7a85c662a18!2sNapa%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643655977378!5m2!1sen!2sus"
+                                            style="border: 0"
+                                            allowfullscreen=""
+                                            loading="lazy"
+                                        ></iframe>
+                                    </div>
+                                    <hr />
+                                    <div id="year"></div>
+                                </footer>
+                                </body>
+                                </html>
+                                
