@@ -142,23 +142,4 @@
     #discover img:hover {
         box-shadow: 0 0 50px #0b3c49;
     }
-    /* join page */
-    /* #formBlock {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    form {
-        display: block;
-        grid-column: 1/2;
-        grid-row: 1/2;
-        height: 500px;
-    }
-    #membership {
-        display: block;
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    #membership h2 {
-        color: #0b3c49;
-    } */
 }
