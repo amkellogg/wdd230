@@ -287,7 +287,7 @@ iframe {
     text-align: center;
 }
 
-/* Form Css */
+/* Join Css */
 
 form {
     display: block;
@@ -295,6 +295,7 @@ form {
     background: #fbfef9;
     width: 400px;
     margin: 10px auto;
+    border-radius: 8px;
 }
 label {
     display: block;
@@ -319,6 +320,13 @@ input {
     color: white;
     border: #628b48;
 }
+
+#membership {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
 /* Thank you page */
 #thankyou {
     background-color: white;

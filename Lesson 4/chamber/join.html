@@ -43,15 +43,21 @@
                 </div>
             </div>
         </header>
+        <div id="formBlock">
             <form method="get" action="thankyou.html">
                 <label for="fname"> First Name *:</label>
                 <input type="fname" name="firstname" required />
                 <label for="lname"> Last Name *:</label>
                 <input type="lname" name="lasttname" required />
-                
+
                 <label for="position"> Business Position (min 7 charaters) </label>
-                <input type="position" name="position" minlength="7" pattern="[-A-Za-z]+" />
-                
+                <input
+                    type="position"
+                    name="position"
+                    minlength="7"
+                    pattern="[-A-Za-z]+"
+                />
+
                 <!-- <label for="password"> Password * (letters, 7 charaters)</label>
                     <input
                     type="password"
@@ -60,24 +66,28 @@
                     minlength="7"
                     pattern="[- A-Za-z]+"
                     /> -->
-                    
-                    <label for="email" required> Email *: </label>
-                    <input type="email" name="email" />
-                    
-                    <label for="phone" required> Phone Number *: </label>
-                    <input type="phone" type="'tel" name="phone" placeholder="123 456 7890" />
-                    
-                    <label for="bus">Business Name *:</label>
-                    <textarea id="bus"></textarea>
-                    
-                    <input id="date" type="hidden" name="todayDate" value="" />
-                    
-                    <!-- <label for="message">Give us a message:</label>
+
+                <label for="email" required> Email *: </label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="chamberofcommerce@gmail.com"
+                />
+
+                <label for="phone" required> Phone Number *: </label>
+                <input type="phone" type="'tel" name="phone" placeholder="123 456 7890" />
+
+                <label for="bus">Business Name *:</label>
+                <textarea id="bus"></textarea>
+
+                <input id="date" type="hidden" name="todayDate" value="" />
+
+                <!-- <label for="message">Give us a message:</label>
                         <textarea id="message"></textarea> -->
-                        
-                        <!-- Type in answer -->
-                        
-                        <!-- <label for="level">Choose your browser from the list:</label>
+
+                <!-- Type in answer -->
+
+                <!-- <label for="level">Choose your browser from the list:</label>
                             <input list="level" name="level" id="level" />
                             <datalist id="level">
                                 <option value="Edge"></option>
@@ -86,62 +96,84 @@
                                 <option value="Opera"></option>
                                 <option value="Safari"></option>
                             </datalist> -->
-                            
-                            <!-- <label for="level">Choose a level:</label>
+
+                <!-- <label for="level">Choose a level:</label>
                                 <select name="level" id="level">
                                     <option value="Gold">Gold</option>
                                     <option value="Silver">Silver</option>
                                     <option value="Bronze">Bronze</option>
                                 </select> -->
-                                
-                                <!-- Multiple choice selector -->
-                                
-                                <label for="Gold">Gold</label>
-                                <input type="radio" id="Gold" name="level" value="Gold" />
-                                <label for="Silver">Silver</label>
-                                <input type="radio" id="Silver" name="level" value="Silver" />
-                                <label for="Bronze">Bronze</label>
-                                <input type="radio" id="Bronze" name="level" value="Bronze" />
-                                
-                                <input
-                                id="submit"
-                                type="submit"
-                                value="Submit"
-                                action="thankyou.html"
-                                target="_blank"
-                                />
-                                
-                                <!-- or can use this: 
+
+                <!-- Multiple choice selector -->
+
+                <label for="Gold">Gold</label>
+                <input type="radio" id="Gold" name="level" value="Gold" />
+                <label for="Silver">Silver</label>
+                <input type="radio" id="Silver" name="level" value="Silver" />
+                <label for="Bronze">Bronze</label>
+                <input type="radio" id="Bronze" name="level" value="Bronze" />
+
+                <input
+                    id="submit"
+                    type="submit"
+                    value="Submit"
+                    action="thankyou.html"
+                    target="_blank"
+                />
+
+                <!-- or can use this: 
                                     <input name="firstname"/>
                                     <label for="fname"> 
                                         First Name </label> -->
-                                    </form>
-                                </div>
-                                <footer>
-                                    <div id="mainfooter">
-                                        <div>
-                                            <img
-                                                id="footerimage"
-                                                src="images/IMG_0450_ccexpress.webp"
-                                                alt="Logo of grave vine and leaf"
-                                            />
-                                        </div>
-                                        <div id="footerinfo">
-                                            <h5>Contact</h5>
-                                            <p>Phone: (707) 234 7891</p>
-                                            <p>Email: napacommerce@gov.com</p>
-                                            <p id="maplink">Link to map</p>
-                                        </div>
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25049.835514560957!2d-122.30796610925826!3d38.29735157917591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085065d224af585%3A0xaf9ee7a85c662a18!2sNapa%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643655977378!5m2!1sen!2sus"
-                                            style="border: 0"
-                                            allowfullscreen=""
-                                            loading="lazy"
-                                        ></iframe>
-                                    </div>
-                                    <hr />
-                                    <div id="year"></div>
-                                </footer>
-                                </body>
-                                </html>
-                                
+            </form>
+
+            <section id="membership">
+                <h2>Membership Levels Benefits</h2>
+                <h3>NP Membership</h3>
+                <p>For non profit organizations and there is no fee</p>
+                <h3>Bronze Membership</h3>
+                <p>15% discount on events</p>
+                <p>10% discount on advertising</p>
+                <p>Fee of $50/month</p>
+                <h3>Silver Membership</h3>
+                <p>25% discount on events</p>
+                <p>15% discount on advertising</p>
+                <p>Free participation in the trade fair</p>
+                <p>Fee of $100/month</p>
+                <h3>Gold Membership</h3>
+                <p>50% discount on events</p>
+                <p>50% discount on advertising</p>
+                <p>Free participation in the trade fair</p>
+                <p>5 free featured ads per year</p>
+                <p>1 free training per quarter</p>
+                <p>Fee of $250/month</p>
+            </section>
+        </div>
+
+        <footer>
+            <div id="mainfooter">
+                <div>
+                    <img
+                        id="footerimage"
+                        src="images/IMG_0450_ccexpress.webp"
+                        alt="Logo of grave vine and leaf"
+                    />
+                </div>
+                <div id="footerinfo">
+                    <h5>Contact</h5>
+                    <p>Phone: (707) 234 7891</p>
+                    <p>Email: napacommerce@gov.com</p>
+                    <p id="maplink">Link to map</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25049.835514560957!2d-122.30796610925826!3d38.29735157917591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085065d224af585%3A0xaf9ee7a85c662a18!2sNapa%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1643655977378!5m2!1sen!2sus"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+            </div>
+            <hr />
+            <div id="year"></div>
+        </footer>
+    </body>
+</html>
