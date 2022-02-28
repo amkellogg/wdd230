@@ -286,7 +286,13 @@ iframe {
 #visitorsDates {
     text-align: center;
 }
-
+figcaption {
+    width: 400px;
+}
+picture {
+    margin: 0 auto;
+    padding: 5px;
+}
 /* Join Css */
 
 form {
