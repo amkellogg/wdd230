@@ -4,49 +4,49 @@
             "imageurl": "directoryimages/honda.png",
             "busname": "Kastner Honda",
             "location": "480 Soscol Ave, Napa, CA 94559",
-            "weburl": "https://www.kastnerhonda.com/"
+            "weburl": "https://www.kastnerhonda.com"
         },
         {
             "imageurl": "directoryimages/squeezeburger.png",
             "busname": "Squeeze Inn Hamburgers",
             "location": "3383 Solano Ave, Napa, CA 94558",
-            "weburl": "https://squeezeinnhamburgers.com/"
+            "weburl": "https://squeezeinnhamburgers.com"
         },
         {
             "imageurl": "directoryimages/homedepot.png",
             "busname": "Home Depot",
             "location": "225 Soscol Ave, Napa, CA 94559",
-            "weburl": "https://www.homedepot.com/l/Napa/CA/Napa/94559/6652"
+            "weburl": "https://www.homedepot.com"
         },
         {
             "imageurl": "directoryimages/walmart.png",
             "busname": "Walmart",
             "location": "681 Lincoln Ave, Napa, CA 94558",
-            "weburl": "https://www.walmart.com/store/2925-napa-ca?cn=Tracking_local_pack_1"
+            "weburl": "https://www.walmart.com"
         },
         {
             "imageurl": "directoryimages/target.png",
             "busname": "Target",
             "location": "4000 Bel Aire Plaza, Napa, CA 94558",
-            "weburl": "https://www.target.com/sl/napa-north/1438"
+            "weburl": "https://www.target.com"
         },
         {
             "imageurl": "directoryimages/nekter.png",
             "busname": "Nekter juice Bar",
             "location": "3900 Bel Aire Plaza, Napa, CA 94559",
-            "weburl": "https://locations.nekterjuicebar.com/ll/us/ca/napa/3900-bel-aire-plaza-ste-f/"
+            "weburl": "https://nekterjuicebar.com"
         },
         {
             "imageurl": "directoryimages/traderjoes.png",
             "busname": "Trader Joe's",
             "location": "3654 Bel Aire Plaza, Napa, CA 94558",
-            "weburl": "https://locations.traderjoes.com/ca/napa/128/?utm_source=gmb&utm_medium=organic&utm_campaign=local"
+            "weburl": "https://traderjoes.com"
         },
         {
             "imageurl": "directoryimages/lululemon.png",
             "busname": "Lululemon",
             "location": "1220 1st St, Napa, CA 94559",
-            "weburl": "https://shop.lululemon.com/stores/us/napa/napa-local-"
+            "weburl": "https://lululemon.com"
         },
         {
             "imageurl": "directoryimages/wellsfargo.png",
@@ -58,19 +58,19 @@
             "imageurl": "directoryimages/colortheory.png",
             "busname": "Color Theory Art Supplies",
             "location": "3250 California Blvd, Napa, CA 94558",
-            "weburl": "http://colortheoryartsupplies.com/"
+            "weburl": "http://colortheoryartsupplies.com"
         },
         {
             "imageurl": "directoryimages/oxbow.png",
             "busname": "Oxbow Public Market",
             "location": "610 1st St, Napa, CA 94559",
-            "weburl": "https://oxbowpublicmarket.com/"
+            "weburl": "https://oxbowpublicmarket.com"
         },
         {
             "imageurl": "directoryimages/panera.png",
             "busname": "Panera Bread",
             "location": "1725 Trancas St Suite B, Napa, CA 94558",
-            "weburl": "panerabread.com"
+            "weburl": "https://panerabread.com"
         }
     ]
 }
