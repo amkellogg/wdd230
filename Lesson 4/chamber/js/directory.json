@@ -4,72 +4,84 @@
             "imageurl": "directoryimages/honda.png",
             "busname": "Kastner Honda",
             "location": "480 Soscol Ave, Napa, CA 94559",
+            "phone": "(707) 123 4567",
             "weburl": "https://www.kastnerhonda.com"
         },
         {
             "imageurl": "directoryimages/squeezeburger.png",
             "busname": "Squeeze Inn Hamburgers",
             "location": "3383 Solano Ave, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://squeezeinnhamburgers.com"
         },
         {
             "imageurl": "directoryimages/homedepot.png",
             "busname": "Home Depot",
             "location": "225 Soscol Ave, Napa, CA 94559",
+            "phone": "(707) 123 4567",
             "weburl": "https://www.homedepot.com"
         },
         {
             "imageurl": "directoryimages/walmart.png",
             "busname": "Walmart",
             "location": "681 Lincoln Ave, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://www.walmart.com"
         },
         {
             "imageurl": "directoryimages/target.png",
             "busname": "Target",
             "location": "4000 Bel Aire Plaza, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://www.target.com"
         },
         {
             "imageurl": "directoryimages/nekter.png",
             "busname": "Nekter juice Bar",
             "location": "3900 Bel Aire Plaza, Napa, CA 94559",
+            "phone": "(707) 123 4567",
             "weburl": "https://nekterjuicebar.com"
         },
         {
             "imageurl": "directoryimages/traderjoes.png",
             "busname": "Trader Joe's",
             "location": "3654 Bel Aire Plaza, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://traderjoes.com"
         },
         {
             "imageurl": "directoryimages/lululemon.png",
             "busname": "Lululemon",
             "location": "1220 1st St, Napa, CA 94559",
+            "phone": "(707) 123 4567",
             "weburl": "https://lululemon.com"
         },
         {
             "imageurl": "directoryimages/wellsfargo.png",
             "busname": "Wells Fargo",
             "location": "3255 Jefferson St, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://www.wellsfargo.com"
         },
         {
             "imageurl": "directoryimages/colortheory.png",
             "busname": "Color Theory Art Supplies",
             "location": "3250 California Blvd, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "http://colortheoryartsupplies.com"
         },
         {
             "imageurl": "directoryimages/oxbow.png",
             "busname": "Oxbow Public Market",
             "location": "610 1st St, Napa, CA 94559",
+            "phone": "(707) 123 4567",
             "weburl": "https://oxbowpublicmarket.com"
         },
         {
             "imageurl": "directoryimages/panera.png",
             "busname": "Panera Bread",
             "location": "1725 Trancas St Suite B, Napa, CA 94558",
+            "phone": "(707) 123 4567",
             "weburl": "https://panerabread.com"
         }
     ]

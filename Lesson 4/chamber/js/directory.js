@@ -19,19 +19,24 @@ function displayBus(bus) {
     let img = document.createElement("img");
     let busname = document.createElement("p");
     let busloc = document.createElement("p");
+    let phone = document.createElement("p");
     let weburl = document.createElement("a");
 
     img.setAttribute("src", bus.imageurl);
     img.setAttribute("alt", `${bus.busname}`);
     busname.textContent = `${bus.busname} `;
     busloc.textContent = `${bus.location}`;
+    phone.textContent = `${bus.phone}`;
     weburl.textContent = `${bus.weburl}`;
     // Add/append the section(card) with the h2 element
     card.appendChild(img);
     card.appendChild(busname);
     card.appendChild(busloc);
+    card.appendChild(phone);
     card.appendChild(weburl);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("#cards").appendChild(card);
 }
+
+function displayCards() {}
