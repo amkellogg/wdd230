@@ -1,5 +1,5 @@
 function imagesLoad() {
-    const images = document.querySelector(".discoverimg");
+    const images = document.querySelector(".images");
 
     const options = { threshold: [0.5] };
 
