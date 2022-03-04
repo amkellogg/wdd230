@@ -143,3 +143,7 @@
         box-shadow: 0 0 50px #0b3c49;
     }
 }
+/* Directorypage */
+#cards img {
+    display: none;
+}
