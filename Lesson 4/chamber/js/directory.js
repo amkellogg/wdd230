@@ -1,4 +1,6 @@
-const jsonData = require("directory.json");
+// const jsonData = require("directory.json");
+const jsonData =
+    "https://amkellogg.github.io/wdd230/Lesson%204/chamber/js/directory.json";
 console.log(jsonData);
 
 fetch(jsonData)
@@ -31,5 +33,5 @@ function displayBus(bus) {
     card.appendChild(weburl);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector("div.cards").appendChild(card);
+    document.querySelector("#cards").appendChild(card);
 }

@@ -339,3 +339,24 @@ input {
     text-align: center;
     margin-bottom: 200px;
 }
+
+/* Directorypage */
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#cards section {
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+    margin: 20px;
+}
+#cards a {
+    color: black;
+    width: 200px;
+}
+#cards img {
+    width: 100px;
+}
