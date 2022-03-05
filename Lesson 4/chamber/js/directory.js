@@ -3,11 +3,7 @@ const jsonData =
     "https://amkellogg.github.io/wdd230/Lesson%204/chamber/js/directory.json";
 console.log(jsonData);
 
-const cardBtn = document.querySelector("#allCard");
-cardBtn.addEventListener("click", displayBus);
-
-const listBtn = document.querySelector("#allList");
-listBtn.addEventListener("click", displayList);
+let business = {};
 
 fetch(jsonData)
     .then(function (response) {
@@ -15,7 +11,7 @@ fetch(jsonData)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const business = jsonObject["business"];
+        business = jsonObject["business"];
 
         // business.forEach(displayBus);
         business.forEach(displayBus);
@@ -31,6 +27,7 @@ function displayBus(bus) {
     let weburl = document.createElement("a");
 
     img.setAttribute("src", bus.imageurl);
+    console.log(bus.imageurl);
     img.setAttribute("alt", `${bus.busname}`);
     busname.textContent = `${bus.busname} `;
     busloc.textContent = `${bus.location}`;
@@ -68,6 +65,7 @@ function displayList(bus) {
     weburl.textContent = `${bus.weburl}`;
 
     // Add/append the section(card) with the h2 element
+    let table = document.querySelector("#list");
     table.appendChild(list_row);
     table.appendChild(busname);
     table.appendChild(busloc);
@@ -75,10 +73,23 @@ function displayList(bus) {
     table.appendChild(weburl);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector("#list").appendChild(table);
+    // document.querySelector("#list").appendChild(table);
 }
 
-function displayList() {}
+//Buttons and window rezie
+// const display = (displayFunction) => {
+//     business.forEach(displayFunction);
+// };
+
+const cardBtn = document.querySelector("#allCards");
+cardBtn.addEventListener("click", displayBus);
+
+const listBtn = document.querySelector("#allList");
+listBtn.addEventListener("click", (event) => {
+    business.forEach(displayList);
+    console.log(listBtn);
+});
+// listBtn.addEventListener("click", displayList);
 
 function windowSize() {
     if (window.innerWidth > 800 && window.innerWidth < 1000) {
@@ -87,5 +98,5 @@ function windowSize() {
         displayList();
     }
 }
-window.addEventListener("resize", reportWindowSize);
-window.addEventListener("load", reportWindowSize);
+// window.addEventListener("resize", reportWindowSize);
+// window.addEventListener("load", reportWindowSize);
