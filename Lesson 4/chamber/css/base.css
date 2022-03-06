@@ -357,9 +357,9 @@ input {
     width: 250px;
     margin: 20px;
 }
-#cards a {
+#webpage {
+    display: block;
     color: black;
-    width: 200px;
     text-align: center;
 }
 #cards img {
