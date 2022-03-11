@@ -61,6 +61,10 @@
     #weather {
         width: 100%;
     }
+    #temp {
+        margin: 0 auto;
+        text-align: center;
+    }
     #icons {
         width: 90px;
     }

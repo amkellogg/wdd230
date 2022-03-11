@@ -12,8 +12,10 @@
             @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
         </style>
         <script src="js/index.js" defer></script>
-        <script src="js/windChill.js" defer></script>
+        <!-- <script src="js/windChill.js" defer></script> -->
         <script src="js/jsfooter.js" defer></script>
+        <script src="js/weatherAPI.js" defer></script>
+
         <title>Chamber of Commerce - Napa</title>
         <link rel="shortcut icon" href="images/favicon.ico" />
     </head>
@@ -101,17 +103,25 @@
             <div id="weatherEvents">
                 <section id="weather">
                     <h4 id="h4Weather">Weather</h4>
-                    <p id="temp">33</p>
-                    <p><span>&#8451;</span></p>
-                    <img
+                    <p id="temp"><span id="current-temp"></span>&#8457;</p>
+                    <!-- <img
                         class="icons"
                         src="images/cloudy.png"
                         alt="Sun behind cloud icon"
-                    />
-                    <p>Partly Cloudy</p>
+                    /> -->
+                    <!-- <p>Partly Cloudy</p> -->
+                    <figure>
+                        <img src="" alt="" id="weathericon" />
+                    </figure>
                     <hr />
-                    <p>Wind Speed: <span id="WS">2.5</span> km/h</p>
-                    <p>Wind Chill: <span id="windChill"></span></p>
+
+                    <!-- <p><span id="current-temp"></span> &#8457;</p>
+                    <span id="icon-src"></span>
+                    <figure>
+                        <img src="" alt="" id="weathericon" />
+                    </figure> -->
+                    <p id="windSpeed">Wind Speed: <span id="WS"></span> km/h</p>
+                    <p id="WindChill">Wind Chill: <span id="windChill"></span> &#8457;</p>
                 </section>
                 <section id="events">
                     <h4>Ribbon Cutting</h4>
