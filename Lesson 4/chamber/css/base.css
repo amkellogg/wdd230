@@ -129,7 +129,6 @@ h2 {
 h3 {
     color: #0b3c49;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 0 0 10px #14677e, 0 0 15px #14677e;
 }
 h4 {
     color: #d8820a;
@@ -164,7 +163,7 @@ button {
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px #628b48, 0 0 15px #628b48;
+    /* box-shadow: 0 0 10px #628b48, 0 0 15px #628b48; */
 }
 #join {
     width: 90%;
