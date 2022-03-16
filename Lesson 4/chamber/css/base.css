@@ -20,6 +20,9 @@ a {
     text-align: left;
     padding-bottom: 10px;
 }
+#imageLink:hover {
+    background-color: #628b48;
+}
 div img {
     width: 20px;
     padding-top: 10px;
@@ -169,6 +172,8 @@ button {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+    text-shadow: 0 0 5px #8bb472;
+
     /* box-shadow: 0 0 10px #628b48, 0 0 15px #628b48; */
 }
 #join {
@@ -382,6 +387,14 @@ input {
 #btns button:hover {
     background-color: #0b3c49;
     color: white;
+}
+table a {
+    color: black;
+    font-size: 15px;
+}
+#cardhover a {
+    color: black;
+    font-size: 15px;
 }
 /* Table / list */
 table {
