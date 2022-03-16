@@ -60,6 +60,8 @@ body {
     position: absolute;
     top: 0;
     left: 50px;
+    font-size: 30px;
+    text-shadow: 0 0 10px #ffffff;
 }
 #heroSizeS {
     position: absolute;
