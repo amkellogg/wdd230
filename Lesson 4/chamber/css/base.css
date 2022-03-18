@@ -20,9 +20,7 @@ a {
     text-align: left;
     padding-bottom: 10px;
 }
-#imageLink:hover {
-    background-color: #628b48;
-}
+
 div img {
     width: 20px;
     padding-top: 10px;
@@ -43,6 +41,9 @@ a:hover {
     color: #ffa62b;
     font-weight: 500;
     border-radius: 10px;
+}
+#imageLink:hover {
+    background-color: #628b48;
 }
 #media {
     padding-left: 30px;
@@ -421,3 +422,4 @@ tr {
     margin: 0 auto;
     padding: 0;
 }
+/* Contact */

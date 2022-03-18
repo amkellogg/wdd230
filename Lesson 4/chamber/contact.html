@@ -56,36 +56,38 @@
                 </div>
             </div>
         </header>
-        <form class="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" />
+        <div id="formBlock">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" />
 
-            <label for="contact">Who would you like to contact:</label>
-            <label for="president">President Fiddle</label>
-            <input type="radio" id="president" name="level" value="president" />
-            <label for="vp">Vice President Harley</label>
-            <input type="radio" id="vp" name="level" value="vp" />
-            <label for="sec">Secretary Lester</label>
-            <input type="radio" id="sec" name="level" value="sec" />
+                <label for="contact">Who would you like to contact:</label>
+                <label for="president">President Fiddle</label>
+                <input type="radio" id="president" name="level" value="president" />
+                <label for="vp">Vice President Harley</label>
+                <input type="radio" id="vp" name="level" value="vp" />
+                <label for="sec">Secretary Lester</label>
+                <input type="radio" id="sec" name="level" value="sec" />
 
-            <label for="message">Your message:</label>
-            <textarea
-                type="text"
-                id="message"
-                name="message"
-                placeholder="Type here"
-            ></textarea>
+                <label id="bus" for="message">Your message:</label>
+                <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    placeholder="Type here"
+                ></textarea>
 
-            <input id="date" type="hidden" name="todayDate" value="" />
+                <input id="date" type="hidden" name="todayDate" value="" />
 
-            <input
-                id="submit"
-                type="submit"
-                value="Submit"
-                action="thankyou.html"
-                target="_blank"
-            />
-        </form>
+                <input
+                    id="submit"
+                    type="submit"
+                    value="Submit"
+                    action="thankyou.html"
+                    target="_blank"
+                />
+            </form>
+        </div>
         <section id="membership">
             <h3>The Board of Directors</h3>
             <h4>President Fiddle</h4>
