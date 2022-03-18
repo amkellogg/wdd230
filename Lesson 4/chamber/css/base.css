@@ -423,3 +423,8 @@ tr {
     padding: 0;
 }
 /* Contact */
+#message {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}

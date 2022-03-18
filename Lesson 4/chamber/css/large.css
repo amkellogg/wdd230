@@ -218,6 +218,7 @@
     #formBlock {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-content: center;
     }
     form {
         display: block;
