@@ -75,6 +75,7 @@ main {
 /* footer */
 footer {
     background-image: url("images/design-tall.png");
+    width: 100%;
 }
 footer img {
     width: 30px;
