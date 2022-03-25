@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "image": "images/MWM.png",
+            "projectname": "Mills Wealth Management Website Design",
+            "caption": "Mills Wealth Management Website Design",
+            "imgurl": "#"
+        },
+        {
+            "image": "images/CMO.png",
+            "projectname": "Clean Mobility Options Website Design",
+            "caption": "Clean Mobility Options Website Design",
+            "imgurl": "#"
+        },
+        {
+            "image": "images/honda.pmg",
+            "projectname": "Honda App Design",
+            "caption": "Honda App Design",
+            "imgurl": "#"
+        },
+        {
+            "image": "images/workday.jpg",
+            "projectname": "Workday App Redesign",
+            "caption": "Workday App Redesign",
+            "imgurl": "#"
+        },
+        {
+            "image": "images/elavate.jpg",
+            "projectname": "Elavate App Design",
+            "caption": "Elavate App Design",
+            "imgurl": "#"
+        }
+    ]
+}
