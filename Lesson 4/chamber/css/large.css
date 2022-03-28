@@ -242,6 +242,6 @@
     display: block;
     margin: 0 auto;
 }
-#cards #cardhover:hover {
+/* #cards #cardhover:hover {
     box-shadow: 0 0 15px #0b3c49;
-}
+} */

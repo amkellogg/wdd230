@@ -36,3 +36,19 @@ function populateCards(projects) {
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("#cards").appendChild(card);
 }
+
+// function show() {
+//     button.classList.toggle("newstyle");
+// }
+// //hamburger menu:
+
+// const hamburgerBtn = document.querySelector(".menuBar");
+// const navigation = document.querySelector(".navigation");
+
+// hamburgerBtn.addEventListener(
+//     "click",
+//     () => {
+//         navigation.classList.toggle("responsive");
+//     },
+//     false
+// );

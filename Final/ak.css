@@ -42,11 +42,14 @@ header {
 }
 /* main */
 main {
+    width: 80%;
+    margin: auto;
+}
+/* About Page */
+.aboutContainer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
-    width: 80%;
-    margin: auto;
 }
 .about {
     grid-column: 1/2;
@@ -104,7 +107,6 @@ footer img {
     background-color: #ede7e3;
     text-align: center;
     width: 80%;
-    grid-column: 1/3;
     margin: 50px auto;
     display: block;
 }
@@ -119,8 +121,6 @@ form {
 
 /* Site Purpose */
 .container {
-    grid-column: 1/3;
-    grid-row: 1/3;
     border: #ede7e3;
     border-width: 5px;
     margin-bottom: 50px;
@@ -155,7 +155,16 @@ a {
 }
 /* Projects */
 
-#cards {
-    grid-column: 1/3;
-    grid-row: 2/3;
+#cards img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
+#cardhover {
+    margin: 0 auto;
+    text-align: center;
+}
+/* #cards #cardhover:hover {
+    box-shadow: 0 0 15px #0b3c49;
+} */
