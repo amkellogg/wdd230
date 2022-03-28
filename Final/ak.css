@@ -154,7 +154,9 @@ a {
     color: #42668b;
 }
 /* Projects */
-
+#cards {
+    margin-bottom: 50px;
+}
 #cards img {
     width: 80%;
     display: block;
