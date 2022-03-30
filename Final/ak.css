@@ -1,3 +1,5 @@
+/* Modible device  grid-template-areas: ;***/
+
 /* body */
 body {
     font-family: "Montserrat", sans-serif;
@@ -19,31 +21,57 @@ header {
     padding: 8px;
     width: 60px;
 }
+
+/* Navigation */
 .navbar {
-    grid-column: 2/3;
-    display: flex;
-    justify-content: right;
+    display: none;
 }
-.navbar a {
+
+.menuBar {
     display: inline-block;
-    color: black;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 15px;
+    cursor: pointer;
+    align-items: left;
+    margin-right: 50px;
+    padding-left: 10px;
 }
-.navbar a:hover {
-    background-color: #573d66;
-    color: white;
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #35668d;
+    margin: 6px 0;
+    transition: 0.4s;
 }
-.navbar a.active {
-    background-color: #4c3957;
-    color: white;
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 /* main */
 main {
     width: 80%;
     margin: auto;
+}
+h2 {
+    font-weight: 600;
+    margin: 10px;
+}
+strong {
+    font-weight: 800;
+}
+.info {
+    margin-top: 20px;
+    font-size: 12px;
 }
 /* About Page */
 .aboutContainer {
@@ -159,6 +187,7 @@ a {
 }
 #cards img {
     width: 80%;
+    max-width: 700px;
     display: block;
     margin: 0 auto;
     margin-top: 50px;
@@ -170,3 +199,42 @@ a {
 /* #cards #cardhover:hover {
     box-shadow: 0 0 15px #0b3c49;
 } */
+
+/* Services Provided */
+.services {
+    background-color: #ede7e3;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+/* Medium screen device  ***/
+@media only screen and (min-width: 760px) {
+    .navbar {
+        grid-column: 2/3;
+        display: flex;
+        justify-content: right;
+    }
+    .navbar a {
+        display: inline-block;
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+    .navbar a:hover {
+        background-color: #573d66;
+        color: white;
+    }
+    .navbar a.active {
+        background-color: #4c3957;
+        color: white;
+    }
+    .menuBar {
+        display: none;
+    }
+}
+
+/* Large screen device  ***/
+@media only screen and (min-width: 900px) {
+}

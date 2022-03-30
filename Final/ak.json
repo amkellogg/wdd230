@@ -4,31 +4,31 @@
             "image": "images/MWM.png",
             "projectname": "Mills Wealth Management Website Design",
             "caption": "Mills Wealth Management Website Design",
-            "imgurl": "#"
+            "imgurl": "https://amkellogg.github.io/wdd230/Final/ak-mwm.html"
         },
         {
             "image": "images/CMO.png",
             "projectname": "Clean Mobility Options Website Design",
             "caption": "Clean Mobility Options Website Design",
-            "imgurl": "#"
+            "imgurl": "https://amkellogg.github.io/wdd230/Final/ak-cmo.html"
         },
         {
             "image": "images/honda.png",
             "projectname": "Honda App Design",
             "caption": "Honda App Design",
-            "imgurl": "#"
+            "imgurl": "https://amkellogg.github.io/wdd230/Final/ak-honda.html"
         },
         {
             "image": "images/workday.jpg",
             "projectname": "Workday App Redesign",
             "caption": "Workday App Redesign",
-            "imgurl": "#"
+            "imgurl": "https://amkellogg.github.io/wdd230/Final/ak-wd.html"
         },
         {
             "image": "images/elavate.jpg",
             "projectname": "Elavate App Design",
             "caption": "Elavate App Design",
-            "imgurl": "#"
+            "imgurl": "https://amkellogg.github.io/wdd230/Final/ak-elavate.html"
         }
     ]
 }

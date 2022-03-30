@@ -37,18 +37,18 @@ function populateCards(projects) {
     document.querySelector("#cards").appendChild(card);
 }
 
-// function show() {
-//     button.classList.toggle("newstyle");
-// }
-// //hamburger menu:
+function show(x) {
+    x.classList.toggle("newstyle");
+}
+//hamburger menu:
 
-// const hamburgerBtn = document.querySelector(".menuBar");
-// const navigation = document.querySelector(".navigation");
+const hamburgerBtn = document.querySelector(".menuBar");
+const navigation = document.querySelector(".navigation");
 
-// hamburgerBtn.addEventListener(
-//     "click",
-//     () => {
-//         navigation.classList.toggle("responsive");
-//     },
-//     false
-// );
+hamburgerBtn.addEventListener(
+    "click",
+    () => {
+        navigation.classList.toggle("responsive");
+    },
+    false
+);
