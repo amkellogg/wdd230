@@ -18,14 +18,15 @@ function populateCards(projects) {
     let img = document.createElement("img");
     let projectname = document.createElement("h2");
     let caption = document.createElement("p");
+
     let imgurl = document.createElement("a");
     imgurl.id = "imgurl";
 
     img.setAttribute("src", projects.image);
     img.setAttribute("alt", `${projects.projectname}`);
     projectname.textContent = `${projects.projectname} `;
-    caption.textContent = `${projects.caption} `;
-    imgurl.textContent = `${projects.imgurl}`;
+    // caption.textContent = `${projects.caption} `;
+    imgurl.innerHTML = `<a href="${projects.imgurl}">${projects.caption}</a>`;
     // Add/append the section(card) with the h2 element
     card.appendChild(img);
     card.appendChild(projectname);
@@ -43,7 +44,7 @@ function show(x) {
 //hamburger menu:
 
 const hamburgerBtn = document.querySelector(".menuBar");
-const navigation = document.querySelector(".navigation");
+const navigation = document.querySelector(".navbar");
 
 hamburgerBtn.addEventListener(
     "click",

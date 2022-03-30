@@ -26,14 +26,27 @@ header {
 .navbar {
     display: none;
 }
-
-.menuBar {
-    display: inline-block;
-    cursor: pointer;
-    align-items: left;
-    margin-right: 50px;
-    padding-left: 10px;
+.navbar a {
+    text-decoration: none;
+    align-items: center;
 }
+.navbar.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 8px;
+    margin: 10px 20px;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.menuBar {
+    cursor: pointer;
+    grid-column: 2/3;
+}
+
 .bar1,
 .bar2,
 .bar3 {
