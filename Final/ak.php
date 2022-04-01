@@ -50,7 +50,7 @@ if (isset($_POST['send'])) {
             <?php } ?>
             <!-- end of warning -->
 
-        <form action="" method="post"> <!-- remember method post is more secure for forms "get" leaves data exposed-->
+        <form action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html" method="post"> <!-- remember method post is more secure for forms "get" leaves data exposed-->
          
               <!--PHP within the label tag is backend validation for required info from user-->
               <label for="first_name">First Name *:
@@ -103,6 +103,8 @@ if (isset($_POST['send'])) {
                 echo htmlentities($comments);
               } ?>
               </textarea>
+              <input id="date" type="hidden" name="todayDate" value="" />
+
               <div id="btns">
                 <input type="submit" name="send" id="submit" value="Send">
                 <input type="reset"  value="Reset"></td>

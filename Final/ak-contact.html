@@ -50,52 +50,28 @@
             <h1>Contact Me</h1>
             <p>Feel free to contact me if you have any questions!</p>
 
-            <form method="get" action="thankyou.html">
-                <label for="name">First Name:</label>
-                <input
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    placeholder="Jane Doe"
-                    required
-                />
+            <form
+                action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html"
+                method="post"
+            >
+                <label for="last_name">Last Name:</label>
+                <input name="last_name" type="text" id="last_name" />
 
-                <label for="name">Last Name:</label>
-                <input
-                    type="text"
-                    id="lname"
-                    name="lname"
-                    placeholder="Jane Doe"
-                    required
-                />
+                <label for="first_name">First Name *: </label>
+                <input name="first_name" type="text" id="first_name" />
 
-                <label for="email">Email:</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="janedoe@gmail.com"
-                    required
-                />
+                <label for="email">E-mail *: </label>
+                <input name="email" type="text" id="email" />
 
-                <label id="bus" for="message" required>Your message:</label>
-                <textarea
-                    type="text"
-                    id="message"
-                    name="message"
-                    placeholder="Type here"
-                    required
-                ></textarea>
+                <label for="comments">Comment/Question/Message *: </label>
+                <textarea name="comments" id="comments"> </textarea>
 
                 <input id="date" type="hidden" name="todayDate" value="" />
 
-                <input
-                    id="submit"
-                    type="submit"
-                    value="Submit"
-                    action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html"
-                    target="_blank"
-                />
+                <div id="btns">
+                    <input type="submit" name="send" id="submit" value="Send">
+                    <input type="reset"  value="Reset"></td>
+                  </div>
             </form>
         </main>
         <footer class="footer">
