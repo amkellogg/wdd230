@@ -5,63 +5,43 @@ $errors = [];
 $missing = [];
 //check if the form has been submitted
 if (isset($_POST['send'])) {  
-  $to = 'julieannidaho@gmail.com'; //gmail works best
+  $to = 'annamkellogg@gmail.com'; //gmail works best
   $subject = 'Comments & Questions from Your Company';
   //list expected fields - to prevent injectors from injecting other fields
   $expected = ['first_name', 'last_name', 'email', 'comments'];
   //set required fields
   $required = ['first_name', 'email', 'comments'];
   //create additional headers
-  $headers = "From: YourCompany\r\n"; //carriage return and new line
+  $headers = "From: AK Designs\r\n"; //carriage return and new line
   $headers .= "Content-Type: text/plain; charset=utf-8"; //.= concatenates from last line
   require 'processmail.php';
   if ($mailSent) {
       //next line sends them to thank you page when mail was sent successfully
-      header('Location: http://www.ceiwebdev.com/thankyou.html');
+      header('Location: https://amkellogg.github.io/wdd230/Final/ak-thankyou.html');
       exit;
   }
 }
 ?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>PHP Sample Form - to Email</title>
-    <style>
-      form {
-      width: 50%;
-      margin: 0 auto;
-      }
-      textarea {
-          width: 80%;
-          height: 275px;
-      }
-      input, label {
-          display: block;
-          line-height: 1.5em;
-          font-size: 1.1em;
-          width: 80%;
-          padding-top: 10px;
-      }
-      input[type='submit'], input[type='reset'] {
-          margin: 2%;
-          padding: 1%;
-          border: 1px solid black;
-          color: #000;
-          font-size: 1.2em;
-          width: 80px;
-          height: 40px;
-      }
-      #btns {
-        display: flex;
-      }
-      .warning {
-        color: red;
-      }
-    </style>
-  </head>
+<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="ak.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="shortcut icon" type="image/x-icon" href="images/ABfavicon.ico" />
+        <script src="ak.js" defer></script>
+
+        <title>Contact</title>
+    </head>
   <body>
+      <main>
             <!--PHP for showing msg if missing info from form-->
             <?php if (($_POST && $suspect) || ($_POST && isset($errors['mailfail']))) { ?>
               <p class="warning">Sorry, your mail could not be sent. Please try later.</p>
@@ -111,9 +91,9 @@ if (isset($_POST['send'])) {
               } ?>
               >
 
-              <label for="comments">Comment/Question *:
+              <label for="comments">Comment/Question/Message *:
               <?php if ($missing && in_array('comments', $missing)) { ?>
-                <span class="warning">Please enter your comment or question</span>
+                <span class="warning">Please enter your comment, questions or message</span>
               <?php } ?>
               </label>
  
@@ -128,5 +108,17 @@ if (isset($_POST['send'])) {
                 <input type="reset"  value="Reset"></td>
               </div>
         </form>
+        <footer class="footer">
+            <div class="footerImages">
+                <a href="https://www.linkedin.com/in/anna-kellogg-9553121b6/">
+                    <img src="images/linkedin.png" alt="linkedin" />
+                </a>
+                <a href="instagram.com">
+                    <img src="images/instagram.png" alt="instagram" />
+                </a>
+                <p class="footerInfo">Anna Kellogg | 2022</p>
+            </div>
+            </main>
+        </footer>
   </body>
 </html>
