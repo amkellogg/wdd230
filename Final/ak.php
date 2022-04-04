@@ -52,7 +52,7 @@ if (isset($_POST['send'])) {
             <h1>Contact Me</h1>
             <p>Feel free to contact me if you have any questions!</p>
             <form
-                action="https://amkellogg.github.io/wdd230/Final/ak.php"
+            action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html"
                 method="submit"
             >         
               <!--PHP within the label tag is backend validation for required info from user-->
