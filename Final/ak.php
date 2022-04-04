@@ -11,6 +11,7 @@ if (isset($_POST['send'])) {
   $expected = ['first_name', 'last_name', 'email', 'comments'];
   //set required fields
   $required = ['first_name', 'email', 'comments'];
+  die("hello world")
   //create additional headers
   $headers = "From: AK Designs\r\n"; //carriage return and new line
   $headers .= "Content-Type: text/plain; charset=utf-8"; //.= concatenates from last line
