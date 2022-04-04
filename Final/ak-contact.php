@@ -29,7 +29,7 @@
                     <a href="https://amkellogg.github.io/wdd230/Final/ak-about.html"
                         >About</a
                     >
-                    <a href="https://amkellogg.github.io/wdd230/Final/ak-contact.html"
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak.php"
                         >Contact</a
                     >
                     <a href="https://amkellogg.github.io/wdd230/Final/ak-services.html"
@@ -51,7 +51,7 @@
             <p>Feel free to contact me if you have any questions!</p>
 
             <form
-                action="https://amkellogg.github.io/wdd230/Final/ak.php"
+                action="https://amkellogg.github.io/wdd230/Final/processmail.php"
                 method="post"
                 >
                 <label for="first_name">First Name *: </label>

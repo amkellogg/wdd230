@@ -11,7 +11,6 @@ if (isset($_POST['send'])) {
   $expected = ['first_name', 'last_name', 'email', 'comments'];
   //set required fields
   $required = ['first_name', 'email', 'comments'];
-  die("hello world")
   //create additional headers
   $headers = "From: AK Designs\r\n"; //carriage return and new line
   $headers .= "Content-Type: text/plain; charset=utf-8"; //.= concatenates from last line
@@ -41,7 +40,37 @@ if (isset($_POST['send'])) {
 
         <title>Contact</title>
     </head>
+
   <body>
+  <header>
+            <div class="logo">
+                <img src="images/Alogo.png" alt="logo" />
+            </div>
+            <div class="navigation">
+                <nav class="navbar">
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak-projects.html"
+                        >Projects</a
+                    >
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak-about.html"
+                        >About</a
+                    >
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak.php"
+                        >Contact</a
+                    >
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak-services.html"
+                        >Services</a
+                    >
+                    <a href="https://amkellogg.github.io/wdd230/Final/ak-otherwork.html"
+                        >Other Work</a
+                    >
+                </nav>
+                <div class="menuBar" onclick="show(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </header>
       <main>
             <!--PHP for showing msg if missing info from form-->
             <?php if (($_POST && $suspect) || ($_POST && isset($errors['mailfail']))) { ?>
@@ -53,8 +82,8 @@ if (isset($_POST['send'])) {
             <h1>Contact Me</h1>
             <p>Feel free to contact me if you have any questions!</p>
             <form
-            action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html"
-                method="submit"
+            action="https://amkellogg.github.io/wdd230/Final/processmail.php"
+                method="mail"
             >         
               <!--PHP within the label tag is backend validation for required info from user-->
               <label for="first_name">First Name *:
