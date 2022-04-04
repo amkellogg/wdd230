@@ -49,9 +49,12 @@ if (isset($_POST['send'])) {
               <p class="warning">Please fix the items(s) indicated.</p>
             <?php } ?>
             <!-- end of warning -->
-
-        <form action="https://amkellogg.github.io/wdd230/Final/ak-thankyou.html" method="post"> <!-- remember method post is more secure for forms "get" leaves data exposed-->
-         
+            <h1>Contact Me</h1>
+            <p>Feel free to contact me if you have any questions!</p>
+            <form
+                action="https://amkellogg.github.io/wdd230/Final/ak.php"
+                method="submit"
+            >         
               <!--PHP within the label tag is backend validation for required info from user-->
               <label for="first_name">First Name *:
               <?php if ($missing && in_array('first_name', $missing)) { ?>
