@@ -330,7 +330,7 @@ picture {
 }
 
 /* Medium screen device  ***/
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 917px) {
     .navigation {
         display: inline;
     }
@@ -403,8 +403,46 @@ picture {
         width: 100%;
         height: 100%;
     }
+    #cards {
+        margin-bottom: 50px;
+    }
+    #cards img {
+        max-width: 1500px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
 }
 
 /* Large screen device  ***/
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 800px) {
+    #cards {
+        margin-bottom: 50px;
+    }
+    #cards img {
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #cardhover {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #cards {
+        margin-bottom: 50px;
+    }
+    #cards img {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #cardhover {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
