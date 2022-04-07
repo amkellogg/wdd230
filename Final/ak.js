@@ -16,6 +16,7 @@ function populateCards(projects) {
     let card = document.createElement("section");
     card.id = "cardhover";
     let img = document.createElement("img");
+
     let projectname = document.createElement("h2");
     let caption = document.createElement("p");
 
@@ -26,6 +27,7 @@ function populateCards(projects) {
     img.setAttribute("alt", `${projects.projectname}`);
     projectname.textContent = `${projects.projectname} `;
     // caption.textContent = `${projects.caption} `;
+    imgurl.innerHTML = `<a href="${img.imgurl}">${img}</a>`;
     imgurl.innerHTML = `<a href="${projects.imgurl}">${projects.caption}</a>`;
     // Add/append the section(card) with the h2 element
     card.appendChild(img);
